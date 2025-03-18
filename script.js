@@ -19,9 +19,9 @@ function calcular() {
 
     let taxaJuros;
     if (numParcelas >= 6 && numParcelas <= 24) {
-        taxaJuros = 0.03; // 3% ao mês
+        taxaJuros = 0.28; // 2,8% ao mês
     } else if (numParcelas > 24 && numParcelas <= 36) {
-        taxaJuros = 0.032; // 3.2% ao mês
+        taxaJuros = 0.030; // 3% ao mês
     } else {
         alert("Número de parcelas deve estar entre 6 e 36.");
         return;
